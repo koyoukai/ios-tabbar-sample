@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController4.swift
 //  iOSTabBarSample
 //
 //  Created by koyo on 2019/12/28.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController4: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .white
+        self.navigationItem.title = "Tab4"
     }
 
-
 }
-
